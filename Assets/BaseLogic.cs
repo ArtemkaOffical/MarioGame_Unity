@@ -7,8 +7,8 @@ public class BaseLogic : MonoBehaviour
     [SerializeField] private KeyCode KeyRight; //Кнопка для движения направо
 
     public Vector2 MoveDirection; //В инспекторе для оси x указать не более 0.05. Иначе скорость будет очень большой
-    private Rigidbody2D _rigidbody2D;
-    private Animator _animator;
+    private Rigidbody2D _rigidbody2D; //Подключаем физику
+    private Animator _animator; // Подключаем анимацию
 
     public void Start()
     {

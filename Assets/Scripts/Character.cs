@@ -4,7 +4,7 @@ public class Character : MonoBehaviour
 {
     [SerializeField] private bool isFlip;
     [SerializeField] private bool isGround;
-    [SerializeField, Range(20,50)] private float _jumpForce;
+    [SerializeField, Range(1,10)] private float _jumpForce;
     [SerializeField, Range(1, 7)] protected float Speed;
 
     protected Rigidbody2D Rigidbody2D;
@@ -23,10 +23,10 @@ public class Character : MonoBehaviour
     {
         MoveHandler();
         FlipHandler(_moveAxis);
+        Jump(KeyCode.Space);
         GroundHandler();
-    }
 
-    private void FixedUpdate() => Jump(KeyCode.Space);
+    }
    
     public virtual void MoveHandler()
     {
@@ -49,7 +49,7 @@ public class Character : MonoBehaviour
 
     private void GroundHandler()
     {
-        RaycastHit2D hit = Physics2D.BoxCast(GetComponent<BoxCollider2D>().bounds.center, GetComponent<BoxCollider2D>().size,0f ,Vector2.down, _rayCastDistane, LayerMask.GetMask("Ground"));
+        RaycastHit2D hit = Physics2D.Raycast(GetComponent<BoxCollider2D>().bounds.center,Vector2.down, _rayCastDistane, LayerMask.GetMask("Ground"));
 
         if (hit.collider != null)
         {
@@ -73,8 +73,8 @@ public class Character : MonoBehaviour
 
     public virtual void Jump(KeyCode keyCode)
     {
-        if (Input.GetKey(keyCode) && isGround)
-            Rigidbody2D.AddForce(new Vector2(0, _jumpForce * Time.deltaTime), ForceMode2D.Impulse);
+        if (Input.GetKeyDown(keyCode) && isGround)
+            Rigidbody2D.AddForce(new Vector2(0, _jumpForce), ForceMode2D.Impulse);
     }
 
 }

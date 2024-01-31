@@ -20,12 +20,11 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMipmapLimit: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -34,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -64,7 +63,6 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -77,7 +75,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -90,7 +87,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -103,7 +99,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -116,7 +111,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -129,7 +123,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1994,96 +1987,97 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      smb_mario_sheet_0: -614668991
-      smb_mario_sheet_1: -537587864
-      smb_mario_sheet_10: 1017660198
-      smb_mario_sheet_11: 2086101149
-      smb_mario_sheet_12: -760959002
-      smb_mario_sheet_13: 203850112
-      smb_mario_sheet_14: -1075945130
-      smb_mario_sheet_15: -1707231415
-      smb_mario_sheet_16: -1426750517
-      smb_mario_sheet_17: 373309865
-      smb_mario_sheet_18: -690974047
-      smb_mario_sheet_19: 468660549
-      smb_mario_sheet_2: -1433373470
-      smb_mario_sheet_20: 349742518
-      smb_mario_sheet_21: -1882086971
-      smb_mario_sheet_22: 152477686
-      smb_mario_sheet_23: 619606491
-      smb_mario_sheet_24: -2052638328
-      smb_mario_sheet_25: 516864179
-      smb_mario_sheet_26: 806639508
-      smb_mario_sheet_27: -1544835294
-      smb_mario_sheet_28: 893955011
-      smb_mario_sheet_29: 2102955795
-      smb_mario_sheet_3: -383027990
-      smb_mario_sheet_30: 61147184
-      smb_mario_sheet_31: 1172179117
-      smb_mario_sheet_32: 1325840424
-      smb_mario_sheet_33: -91022264
-      smb_mario_sheet_34: -1354984642
-      smb_mario_sheet_35: 1154670737
-      smb_mario_sheet_36: 375050134
-      smb_mario_sheet_37: 1120761627
-      smb_mario_sheet_38: -1402448903
-      smb_mario_sheet_39: -205681605
-      smb_mario_sheet_4: 1673348078
-      smb_mario_sheet_40: -1227114403
-      smb_mario_sheet_41: 777553695
-      smb_mario_sheet_42: -1511330429
-      smb_mario_sheet_43: 561889868
-      smb_mario_sheet_44: 1584164597
-      smb_mario_sheet_45: 2059951297
-      smb_mario_sheet_46: 777627770
-      smb_mario_sheet_47: 1808745160
-      smb_mario_sheet_48: -1625922168
-      smb_mario_sheet_49: 1940607544
-      smb_mario_sheet_5: 227813855
-      smb_mario_sheet_50: -451909416
-      smb_mario_sheet_51: 561107064
-      smb_mario_sheet_52: -1652747634
-      smb_mario_sheet_53: -738552241
-      smb_mario_sheet_54: 1628460188
-      smb_mario_sheet_55: 2121141350
-      smb_mario_sheet_56: -1046970146
-      smb_mario_sheet_57: -1533261096
-      smb_mario_sheet_58: 1563677158
-      smb_mario_sheet_59: -179051908
-      smb_mario_sheet_6: 1082318349
-      smb_mario_sheet_60: 437601256
-      smb_mario_sheet_61: -1770192093
-      smb_mario_sheet_62: -1768857116
-      smb_mario_sheet_63: -578731421
-      smb_mario_sheet_64: -1181265180
-      smb_mario_sheet_65: -1403529996
-      smb_mario_sheet_66: -1792548166
-      smb_mario_sheet_67: -582873036
-      smb_mario_sheet_68: 1186937110
-      smb_mario_sheet_69: 1676784807
-      smb_mario_sheet_7: -940059328
-      smb_mario_sheet_70: 229423686
-      smb_mario_sheet_71: -703159103
-      smb_mario_sheet_72: -1074701038
-      smb_mario_sheet_73: -1400906955
-      smb_mario_sheet_74: 1817996741
-      smb_mario_sheet_75: -586031130
-      smb_mario_sheet_76: -1977576729
       smb_mario_sheet_77: -865873021
-      smb_mario_sheet_78: -459783608
-      smb_mario_sheet_79: 1934492042
-      smb_mario_sheet_8: -1587604840
-      smb_mario_sheet_80: 600158413
-      smb_mario_sheet_81: 951349600
-      smb_mario_sheet_82: 621545740
-      smb_mario_sheet_83: -921229275
-      smb_mario_sheet_84: -33421545
-      smb_mario_sheet_85: 1060277065
-      smb_mario_sheet_86: -1508792288
-      smb_mario_sheet_87: -1579134425
+      smb_mario_sheet_69: 1676784807
+      smb_mario_sheet_40: -1227114403
       smb_mario_sheet_9: 476768896
-  mipmapLimitGroupName: 
+      smb_mario_sheet_43: 561889868
+      smb_mario_sheet_1: -537587864
+      smb_mario_sheet_60: 437601256
+      smb_mario_sheet_31: 1172179117
+      smb_mario_sheet_81: 951349600
+      smb_mario_sheet_61: -1770192093
+      smb_mario_sheet_52: -1652747634
+      smb_mario_sheet_33: -91022264
+      smb_mario_sheet_3: -383027990
+      smb_mario_sheet_10: 1017660198
+      smb_mario_sheet_70: 229423686
+      smb_mario_sheet_57: -1533261096
+      smb_mario_sheet_55: 2121141350
+      smb_mario_sheet_16: -1426750517
+      smb_mario_sheet_39: -205681605
+      smb_mario_sheet_63: -578731421
+      smb_mario_sheet_19: 468660549
+      smb_mario_sheet_24: -2052638328
+      smb_mario_sheet_42: -1511330429
+      smb_mario_sheet_4: 1673348078
+      smb_mario_sheet_74: 1817996741
+      smb_mario_sheet_26: 806639508
+      smb_mario_sheet_64: -1181265180
+      smb_mario_sheet_8: -1587604840
+      smb_mario_sheet_59: -179051908
+      smb_mario_sheet_85: 1060277065
+      smb_mario_sheet_5: 227813855
+      smb_mario_sheet_79: 1934492042
+      smb_mario_sheet_29: 2102955795
+      smb_mario_sheet_48: -1625922168
+      smb_mario_sheet_73: -1400906955
+      smb_mario_sheet_21: -1882086971
+      smb_mario_sheet_83: -921229275
+      smb_mario_sheet_17: 373309865
+      smb_mario_sheet_32: 1325840424
+      smb_mario_sheet_56: -1046970146
+      smb_mario_sheet_47: 1808745160
+      smb_mario_sheet_72: -1074701038
+      smb_mario_sheet_68: 1186937110
+      smb_mario_sheet_28: 893955011
+      smb_mario_sheet_51: 561107064
+      smb_mario_sheet_22: 152477686
+      smb_mario_sheet_46: 777627770
+      smb_mario_sheet_13: 203850112
+      smb_mario_sheet_54: 1628460188
+      smb_mario_sheet_12: -760959002
+      smb_mario_sheet_37: 1120761627
+      smb_mario_sheet_50: -451909416
+      smb_mario_sheet_65: -1403529996
+      smb_mario_sheet_49: 1940607544
+      smb_mario_sheet_20: 349742518
+      smb_mario_sheet_23: 619606491
+      smb_mario_sheet_14: -1075945130
+      smb_mario_sheet_87: -1579134425
+      smb_mario_sheet_41: 777553695
+      smb_mario_sheet_71: -703159103
+      smb_mario_sheet_36: 375050134
+      smb_mario_sheet_11: 2086101149
+      smb_mario_sheet_75: -586031130
+      smb_mario_sheet_38: -1402448903
+      smb_mario_sheet_6: 1082318349
+      smb_mario_sheet_34: -1354984642
+      smb_mario_sheet_0: -614668991
+      smb_mario_sheet_53: -738552241
+      smb_mario_sheet_67: -582873036
+      smb_mario_sheet_86: -1508792288
+      smb_mario_sheet_45: 2059951297
+      smb_mario_sheet_35: 1154670737
+      smb_mario_sheet_44: 1584164597
+      smb_mario_sheet_15: -1707231415
+      smb_mario_sheet_66: -1792548166
+      smb_mario_sheet_27: -1544835294
+      smb_mario_sheet_30: 61147184
+      smb_mario_sheet_25: 516864179
+      smb_mario_sheet_76: -1977576729
+      smb_mario_sheet_62: -1768857116
+      smb_mario_sheet_7: -940059328
+      smb_mario_sheet_80: 600158413
+      smb_mario_sheet_58: 1563677158
+      smb_mario_sheet_18: -690974047
+      smb_mario_sheet_84: -33421545
+      smb_mario_sheet_82: 621545740
+      smb_mario_sheet_78: -459783608
+      smb_mario_sheet_2: -1433373470
+  spritePackingTag: 
   pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
